@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Kinzan market quake archive"
+abstract: "Every day a tracked currency, coin, stock, index, commodity or bond yield moved three or more standard deviations of its own previous 20 daily returns, measured close to close on settled days."
+authors:
+  - name: "Kinzan"
+    website: "https://kinzan.io"
+url: "https://kinzan.io/markets/quakes/"
+repository-code: "https://github.com/kinzan-io/market-quakes"
+license: CC-BY-4.0
+keywords:
+  - financial markets
+  - volatility
+  - tail events
+  - standard deviation
+  - forex
+  - crypto
+  - commodities
+  - stock indices

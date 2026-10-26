@@ -1,0 +1,2 @@
+# CSVs are served with CRLF line ends (RFC 4180); keep them byte for byte.
+*.csv -text

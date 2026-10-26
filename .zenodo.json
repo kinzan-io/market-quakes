@@ -1,0 +1,12 @@
+{
+  "title": "Kinzan market quake archive",
+  "description": "<p>Every day a tracked currency, coin, stock, index, commodity or bond yield moved three or more standard deviations of its own previous 20 daily returns, measured close to close on settled days. One row per quake, with its size in sigma, the percentage move, the record it set and how many markets moved 2 sigma or more the same day. Updated monthly. Methodology: <a href=\"https://kinzan.io/methodology/\">kinzan.io/methodology</a>.</p>",
+  "upload_type": "dataset",
+  "creators": [{ "name": "Kinzan" }],
+  "license": "cc-by-4.0",
+  "keywords": ["financial markets", "volatility", "tail events", "standard deviation", "forex", "crypto", "commodities", "stock indices"],
+  "related_identifiers": [
+    { "identifier": "https://kinzan.io/markets/quakes/", "relation": "isSupplementTo", "resource_type": "dataset" },
+    { "identifier": "https://kinzan.io/methodology/", "relation": "isDocumentedBy", "resource_type": "publication-other" }
+  ]
+}

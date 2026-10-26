@@ -1,0 +1,68 @@
+name: Sync from kinzan.io
+
+on:
+  schedule:
+    # The 3rd of each month: a month is final on kinzan.io from the 3rd (UTC).
+    - cron: "17 6 3 * *"
+    # Mondays, to pick up rows backfilled for a newly tracked instrument, and
+    # so a failed monthly run is retried within a week.
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      allow_rewrite:
+        description: "Allow published rows to change (only after finding out why)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch the dataset
+        id: sync
+        run: node scripts/sync.mjs
+        env:
+          ALLOW_REWRITE: ${{ inputs.allow_rewrite && '1' || '0' }}
+
+      - name: Commit
+        id: commit
+        run: |
+          git add -A data README.md
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync: new ${NEW:-none}; extended ${REVISED:-none}"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        env:
+          NEW: ${{ steps.sync.outputs.new_months }}
+          REVISED: ${{ steps.sync.outputs.revised_months }}
+
+      # A release is what Zenodo archives and gives a DOI, so one is cut only
+      # when the data itself changed: a month added or extended.
+      - name: Release
+        if: steps.commit.outputs.changed == 'true' && (steps.sync.outputs.new_months != '' || steps.sync.outputs.revised_months != '')
+        run: |
+          tag="v$(date -u +%Y.%m.%d)"
+          notes="Months added: ${NEW:-none}. Months extended with backfilled instruments: ${REVISED:-none}."
+          gh release create "$tag" data/all.csv --title "Quakes to $(jq -r .lastDate data/index.json)" --notes "$notes"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NEW: ${{ steps.sync.outputs.new_months }}
+          REVISED: ${{ steps.sync.outputs.revised_months }}
