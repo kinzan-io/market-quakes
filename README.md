@@ -1,5 +1,7 @@
 # Market quakes
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23690407.svg)](https://doi.org/10.5281/zenodo.23690407)
+
 Every day a tracked market moved **three or more standard deviations of its own recent volatility**, from the [Kinzan quake archive](https://kinzan.io/markets/quakes/). Currencies, metals, crypto, commodities, indices, bond yields and stocks, all measured the same way, so a quiet currency pair and a volatile coin can be compared on one scale.
 
 Updated monthly. Free to use under [CC BY 4.0](LICENSE) with attribution.
@@ -91,7 +93,7 @@ The data is licensed under [Creative Commons Attribution 4.0](LICENSE). You may 
 
 > Data: Kinzan market quake archive, [kinzan.io/markets/quakes](https://kinzan.io/markets/quakes/), CC BY 4.0
 
-In a web page or article, link the words to `https://kinzan.io/markets/quakes/`. To cite it formally, use the "Cite this repository" button on GitHub, or the DOI on the latest release.
+In a web page or article, link the words to `https://kinzan.io/markets/quakes/`. To cite it formally, use the DOI, [10.5281/zenodo.23690407](https://doi.org/10.5281/zenodo.23690407), or the "Cite this repository" button on GitHub. The dataset is archived on Zenodo, and each monthly release is a new version of the same record.
 
 ## How this repository updates
 

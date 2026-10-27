@@ -9,6 +9,11 @@ authors:
 url: "https://kinzan.io/markets/quakes/"
 repository-code: "https://github.com/kinzan-io/market-quakes"
 license: CC-BY-4.0
+doi: 10.5281/zenodo.23690407
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23690407
+    description: "The Zenodo archive of this dataset."
 keywords:
   - financial markets
   - volatility
