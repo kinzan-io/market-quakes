@@ -1,0 +1,49 @@
+{
+  "month": "2026-06",
+  "count": 2,
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kinzan (kinzan.io), market quake archive"
+  },
+  "quakes": [
+    {
+      "key": "2026-06-26-aave-usd",
+      "date": "2026-06-26",
+      "prev_date": "2026-06-25",
+      "instrument": "Aave",
+      "ticker": "AAVE",
+      "slug": "aave-usd",
+      "class": "crypto",
+      "group": "crypto_defi",
+      "sigma": 3.9,
+      "return_pct": 15.28,
+      "vol20_pct": 3.92,
+      "beats": 0,
+      "larger_since": null,
+      "measured": 29,
+      "stressed": 3,
+      "url": "https://kinzan.io/markets/quakes/2026-06-26-aave-usd/",
+      "instrument_url": "https://kinzan.io/markets/crypto/aave-usd/"
+    },
+    {
+      "key": "2026-06-26-inj-usd",
+      "date": "2026-06-26",
+      "prev_date": "2026-06-25",
+      "instrument": "Injective",
+      "ticker": "INJ",
+      "slug": "inj-usd",
+      "class": "crypto",
+      "group": "crypto_defi",
+      "sigma": 3,
+      "return_pct": 13.52,
+      "vol20_pct": 4.51,
+      "beats": 0,
+      "larger_since": null,
+      "measured": 29,
+      "stressed": 3,
+      "url": "https://kinzan.io/markets/quakes/2026-06-26-inj-usd/",
+      "instrument_url": "https://kinzan.io/markets/crypto/inj-usd/"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+key,date,prev_date,instrument,ticker,slug,class,group,sigma,return_pct,vol20_pct,beats,larger_since,measured,stressed,url,instrument_url
+2026-06-26-aave-usd,2026-06-26,2026-06-25,Aave,AAVE,aave-usd,crypto,crypto_defi,3.9,15.28,3.92,0,,29,3,https://kinzan.io/markets/quakes/2026-06-26-aave-usd/,https://kinzan.io/markets/crypto/aave-usd/
+2026-06-26-inj-usd,2026-06-26,2026-06-25,Injective,INJ,inj-usd,crypto,crypto_defi,3,13.52,4.51,0,,29,3,https://kinzan.io/markets/quakes/2026-06-26-inj-usd/,https://kinzan.io/markets/crypto/inj-usd/

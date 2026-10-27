@@ -19,6 +19,14 @@ Full methodology: [kinzan.io/methodology](https://kinzan.io/methodology/).
 ## Coverage
 
 <!-- coverage:start -->
+**298 quakes** from 2026-06-26 to 2026-09-30, across 4 months.
+
+| Month | Quakes | Files |
+|---|---:|---|
+| 2026-09 | 100 | [CSV](data/2026/2026-09.csv) · [JSON](data/2026/2026-09.json) |
+| 2026-08 | 109 | [CSV](data/2026/2026-08.csv) · [JSON](data/2026/2026-08.json) |
+| 2026-07 | 87 | [CSV](data/2026/2026-07.csv) · [JSON](data/2026/2026-07.json) |
+| 2026-06 | 2 | [CSV](data/2026/2026-06.csv) · [JSON](data/2026/2026-06.json) |
 <!-- coverage:end -->
 
 ## Files
@@ -35,6 +43,25 @@ Rows are sorted by date, then by size of move (largest first).
 ## Columns
 
 <!-- columns:start -->
+| Column | Meaning |
+|---|---|
+| `key` | Unique id of the quake: {date}-{slug}. The last path segment of its record page. |
+| `date` | Day the move ENDED on (YYYY-MM-DD, the instrument's own daily close). |
+| `prev_date` | Day of the previous close the move is measured from. Spans weekends and holidays: Friday to Monday is one move. |
+| `instrument` | Instrument name. |
+| `ticker` | Short label Kinzan uses for it. |
+| `slug` | Kinzan's identifier for the instrument. |
+| `class` | Asset class: forex, metal, crypto, commodity, index, rate or stock. |
+| `group` | Kinzan's group within the class, or empty. |
+| `sigma` | Size of the move in standard deviations of the instrument's own previous 20 daily returns (sample SD), signed, one decimal. A quake is \|sigma\| >= 3. |
+| `return_pct` | Close-to-close percentage move on the day, signed, two decimals. |
+| `vol20_pct` | The 20-day volatility the move was measured against, in percent: \|return_pct / sigma\|. |
+| `beats` | Consecutive measured sessions before this one that were smaller, walking back through the window available when it was recorded. |
+| `larger_since` | Date of the last larger move found in that window, or empty when the move was larger than every session in it. |
+| `measured` | How many Kinzan instruments had a measurable move that day. |
+| `stressed` | How many of those moved 2 sigma or more that day: the breadth of the shock. |
+| `url` | Permanent record page for this quake on kinzan.io. |
+| `instrument_url` | The instrument's live page on kinzan.io. |
 <!-- columns:end -->
 
 ## Rules the data follows

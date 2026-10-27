@@ -1,0 +1,110 @@
+{
+  "name": "Kinzan market quake archive",
+  "description": "Every day a tracked currency, coin, stock, index, commodity or bond moved three or more standard deviations of its own recent volatility, measured close to close against the previous 20 daily returns. Recorded the night after the day settled and never rewritten.",
+  "homepage": "https://kinzan.io/markets/quakes/",
+  "methodology": "https://kinzan.io/methodology/",
+  "license": {
+    "id": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kinzan (kinzan.io), market quake archive"
+  },
+  "firstDate": "2026-06-26",
+  "lastDate": "2026-09-30",
+  "count": 298,
+  "columns": [
+    {
+      "name": "key",
+      "description": "Unique id of the quake: {date}-{slug}. The last path segment of its record page."
+    },
+    {
+      "name": "date",
+      "description": "Day the move ENDED on (YYYY-MM-DD, the instrument's own daily close)."
+    },
+    {
+      "name": "prev_date",
+      "description": "Day of the previous close the move is measured from. Spans weekends and holidays: Friday to Monday is one move."
+    },
+    {
+      "name": "instrument",
+      "description": "Instrument name."
+    },
+    {
+      "name": "ticker",
+      "description": "Short label Kinzan uses for it."
+    },
+    {
+      "name": "slug",
+      "description": "Kinzan's identifier for the instrument."
+    },
+    {
+      "name": "class",
+      "description": "Asset class: forex, metal, crypto, commodity, index, rate or stock."
+    },
+    {
+      "name": "group",
+      "description": "Kinzan's group within the class, or empty."
+    },
+    {
+      "name": "sigma",
+      "description": "Size of the move in standard deviations of the instrument's own previous 20 daily returns (sample SD), signed, one decimal. A quake is |sigma| >= 3."
+    },
+    {
+      "name": "return_pct",
+      "description": "Close-to-close percentage move on the day, signed, two decimals."
+    },
+    {
+      "name": "vol20_pct",
+      "description": "The 20-day volatility the move was measured against, in percent: |return_pct / sigma|."
+    },
+    {
+      "name": "beats",
+      "description": "Consecutive measured sessions before this one that were smaller, walking back through the window available when it was recorded."
+    },
+    {
+      "name": "larger_since",
+      "description": "Date of the last larger move found in that window, or empty when the move was larger than every session in it."
+    },
+    {
+      "name": "measured",
+      "description": "How many Kinzan instruments had a measurable move that day."
+    },
+    {
+      "name": "stressed",
+      "description": "How many of those moved 2 sigma or more that day: the breadth of the shock."
+    },
+    {
+      "name": "url",
+      "description": "Permanent record page for this quake on kinzan.io."
+    },
+    {
+      "name": "instrument_url",
+      "description": "The instrument's live page on kinzan.io."
+    }
+  ],
+  "months": [
+    {
+      "month": "2026-06",
+      "count": 2,
+      "json": "https://kinzan.io/data/quakes/2026-06.json",
+      "csv": "https://kinzan.io/data/quakes/2026-06.csv"
+    },
+    {
+      "month": "2026-07",
+      "count": 87,
+      "json": "https://kinzan.io/data/quakes/2026-07.json",
+      "csv": "https://kinzan.io/data/quakes/2026-07.csv"
+    },
+    {
+      "month": "2026-08",
+      "count": 109,
+      "json": "https://kinzan.io/data/quakes/2026-08.json",
+      "csv": "https://kinzan.io/data/quakes/2026-08.csv"
+    },
+    {
+      "month": "2026-09",
+      "count": 100,
+      "json": "https://kinzan.io/data/quakes/2026-09.json",
+      "csv": "https://kinzan.io/data/quakes/2026-09.csv"
+    }
+  ]
+}
