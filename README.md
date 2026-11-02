@@ -21,13 +21,13 @@ Full methodology: [kinzan.io/methodology](https://kinzan.io/methodology/).
 ## Coverage
 
 <!-- coverage:start -->
-**298 quakes** from 2026-06-26 to 2026-09-30, across 4 months.
+**306 quakes** from 2026-06-26 to 2026-09-30, across 4 months.
 
 | Month | Quakes | Files |
 |---|---:|---|
 | 2026-09 | 100 | [CSV](data/2026/2026-09.csv) · [JSON](data/2026/2026-09.json) |
 | 2026-08 | 109 | [CSV](data/2026/2026-08.csv) · [JSON](data/2026/2026-08.json) |
-| 2026-07 | 87 | [CSV](data/2026/2026-07.csv) · [JSON](data/2026/2026-07.json) |
+| 2026-07 | 95 | [CSV](data/2026/2026-07.csv) · [JSON](data/2026/2026-07.json) |
 | 2026-06 | 2 | [CSV](data/2026/2026-06.csv) · [JSON](data/2026/2026-06.json) |
 <!-- coverage:end -->
 

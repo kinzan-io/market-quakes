@@ -8,9 +8,13 @@
     "url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "Kinzan (kinzan.io), market quake archive"
   },
+  "doi": "10.5281/zenodo.23690407",
+  "doiUrl": "https://doi.org/10.5281/zenodo.23690407",
+  "repository": "https://github.com/kinzan-io/market-quakes",
+  "citation": "Kinzan (2026). Kinzan market quake archive [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23690407",
   "firstDate": "2026-06-26",
   "lastDate": "2026-09-30",
-  "count": 298,
+  "count": 306,
   "columns": [
     {
       "name": "key",
@@ -90,7 +94,7 @@
     },
     {
       "month": "2026-07",
-      "count": 87,
+      "count": 95,
       "json": "https://kinzan.io/data/quakes/2026-07.json",
       "csv": "https://kinzan.io/data/quakes/2026-07.csv"
     },

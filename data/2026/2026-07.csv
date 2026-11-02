@@ -47,6 +47,7 @@ key,date,prev_date,instrument,ticker,slug,class,group,sigma,return_pct,vol20_pct
 2026-07-23-ftse-mib,2026-07-23,2026-07-22,FTSE MIB,MIB,ftse-mib,index,index_eu,-3.5,-2.8,0.8,15,,198,20,https://kinzan.io/markets/quakes/2026-07-23-ftse-mib/,https://kinzan.io/markets/indices/ftse-mib/
 2026-07-23-googl,2026-07-23,2026-07-22,Alphabet,GOOGL,googl,stock,equity_tech,-3.4,-7.13,2.1,13,,198,20,https://kinzan.io/markets/quakes/2026-07-23-googl/,https://kinzan.io/markets/stocks/googl/
 2026-07-23-hon,2026-07-23,2026-07-22,Honeywell,HON,hon,stock,equity_industrial,3.4,5.7,1.68,1,,199,19,https://kinzan.io/markets/quakes/2026-07-23-hon/,https://kinzan.io/markets/stocks/hon/
+2026-07-23-doge-usd,2026-07-23,2026-07-22,Dogecoin,DOGE,doge-usd,crypto,crypto_meme,-3.3,-5.23,1.58,4,,28,4,https://kinzan.io/markets/quakes/2026-07-23-doge-usd/,https://kinzan.io/markets/crypto/doge-usd/
 2026-07-23-amzn,2026-07-23,2026-07-22,Amazon,AMZN,amzn,stock,equity_tech,-3,-4.57,1.52,3,,199,20,https://kinzan.io/markets/quakes/2026-07-23-amzn/,https://kinzan.io/markets/stocks/amzn/
 2026-07-24-slb,2026-07-24,2026-07-23,SLB,SLB,slb,stock,equity_energy,8.2,11.01,1.34,14,,146,4,https://kinzan.io/markets/quakes/2026-07-24-slb/,https://kinzan.io/markets/stocks/slb/
 2026-07-25-avax-usd,2026-07-25,2026-07-24,Avalanche,AVAX,avax-usd,crypto,crypto_l1,3.2,7.44,2.33,29,,28,1,https://kinzan.io/markets/quakes/2026-07-25-avax-usd/,https://kinzan.io/markets/crypto/avax-usd/
@@ -58,15 +59,19 @@ key,date,prev_date,instrument,ticker,slug,class,group,sigma,return_pct,vol20_pct
 2026-07-27-dot-usd,2026-07-27,2026-07-26,Polkadot,DOT,dot-usd,crypto,crypto_l1,-3.6,-8.31,2.31,31,,199,29,https://kinzan.io/markets/quakes/2026-07-27-dot-usd/,https://kinzan.io/markets/crypto/dot-usd/
 2026-07-27-op-usd,2026-07-27,2026-07-26,Optimism,OP,op-usd,crypto,crypto_l1,-3.3,-8.34,2.53,31,,199,29,https://kinzan.io/markets/quakes/2026-07-27-op-usd/,https://kinzan.io/markets/crypto/op-usd/
 2026-07-27-imx-usd,2026-07-27,2026-07-26,Immutable,IMX,imx-usd,crypto,crypto_l1,-3.1,-7.5,2.42,23,2026-07-03,199,29,https://kinzan.io/markets/quakes/2026-07-27-imx-usd/,https://kinzan.io/markets/crypto/imx-usd/
+2026-07-27-asx-200,2026-07-27,2026-07-24,ASX 200,ASX200,asx-200,index,index_apac,3,1.39,0.46,2,,200,31,https://kinzan.io/markets/quakes/2026-07-27-asx-200/,https://kinzan.io/markets/indices/asx-200/
 2026-07-27-near-usd,2026-07-27,2026-07-26,NEAR Protocol,NEAR,near-usd,crypto,crypto_l1,-3,-8.3,2.77,31,,199,29,https://kinzan.io/markets/quakes/2026-07-27-near-usd/,https://kinzan.io/markets/crypto/near-usd/
 2026-07-28-brk-b,2026-07-28,2026-07-27,Berkshire Hathaway,BRK.B,brk-b,stock,equity_financial,3.9,3.06,0.78,16,,199,4,https://kinzan.io/markets/quakes/2026-07-28-brk-b/,https://kinzan.io/markets/stocks/brk-b/
+2026-07-28-ba,2026-07-28,2026-07-27,Boeing,BA,ba,stock,equity_industrial,3.2,4.76,1.49,0,,199,7,https://kinzan.io/markets/quakes/2026-07-28-ba/,https://kinzan.io/markets/stocks/ba/
 2026-07-29-eur-aud,2026-07-29,2026-07-28,Euro / Australian Dollar,EUR/AUD,eur-aud,forex,fx_cross,4.7,0.94,0.2,19,,199,26,https://kinzan.io/markets/quakes/2026-07-29-eur-aud/,https://kinzan.io/markets/forex/eur-aud/
 2026-07-29-aud-chf,2026-07-29,2026-07-28,Australian Dollar / Swiss Franc,AUD/CHF,aud-chf,forex,fx_cross,-4,-0.96,0.24,19,,199,26,https://kinzan.io/markets/quakes/2026-07-29-aud-chf/,https://kinzan.io/markets/forex/aud-chf/
 2026-07-29-dow-jones,2026-07-29,2026-07-28,Dow Jones,DJI,dow-jones,index,index_us,-3.6,-2.19,0.61,17,,199,26,https://kinzan.io/markets/quakes/2026-07-29-dow-jones/,https://kinzan.io/markets/indices/dow-jones/
 2026-07-29-us-13-week-yield,2026-07-29,2026-07-28,US 13-Week Treasury Yield,US3M,us-13-week-yield,rate,sovereign_yield,-3.5,-2.71,0.77,17,,199,26,https://kinzan.io/markets/quakes/2026-07-29-us-13-week-yield/,https://kinzan.io/markets/rates/us-13-week-yield/
+2026-07-29-gbp-aud,2026-07-29,2026-07-28,British Pound / Australian Dollar,GBP/AUD,gbp-aud,forex,fx_cross,3.1,0.83,0.27,4,,200,25,https://kinzan.io/markets/quakes/2026-07-29-gbp-aud/,https://kinzan.io/markets/forex/gbp-aud/
 2026-07-29-cat,2026-07-29,2026-07-28,Caterpillar,CAT,cat,stock,equity_industrial,-3,-6.91,2.3,4,,200,27,https://kinzan.io/markets/quakes/2026-07-29-cat/,https://kinzan.io/markets/stocks/cat/
 2026-07-29-eur-usd,2026-07-29,2026-07-28,Euro / US Dollar,EUR/USD,eur-usd,forex,fx_major,3,0.71,0.24,19,,199,26,https://kinzan.io/markets/quakes/2026-07-29-eur-usd/,https://kinzan.io/markets/forex/eur-usd/
 2026-07-29-jpm,2026-07-29,2026-07-28,JPMorgan Chase,JPM,jpm,stock,equity_financial,-3,-3.53,1.18,17,,199,26,https://kinzan.io/markets/quakes/2026-07-29-jpm/,https://kinzan.io/markets/stocks/jpm/
+2026-07-29-usd-dkk,2026-07-29,2026-07-28,US Dollar / Danish Krone,USD/DKK,usd-dkk,forex,fx_exotic,-3,-0.71,0.24,4,,200,25,https://kinzan.io/markets/quakes/2026-07-29-usd-dkk/,https://kinzan.io/markets/forex/usd-dkk/
 2026-07-30-msft,2026-07-30,2026-07-29,Microsoft,MSFT,msft,stock,equity_tech,9.4,15.51,1.65,18,,199,50,https://kinzan.io/markets/quakes/2026-07-30-msft/,https://kinzan.io/markets/stocks/msft/
 2026-07-30-usd-jpy,2026-07-30,2026-07-29,US Dollar / Japanese Yen,USD/JPY,usd-jpy,forex,fx_major,-6.9,-1.91,0.28,20,,199,50,https://kinzan.io/markets/quakes/2026-07-30-usd-jpy/,https://kinzan.io/markets/forex/usd-jpy/
 2026-07-30-cad-jpy,2026-07-30,2026-07-29,Canadian Dollar / Japanese Yen,CAD/JPY,cad-jpy,forex,fx_cross,-6,-1.74,0.29,20,,199,50,https://kinzan.io/markets/quakes/2026-07-30-cad-jpy/,https://kinzan.io/markets/forex/cad-jpy/
@@ -80,8 +85,11 @@ key,date,prev_date,instrument,ticker,slug,class,group,sigma,return_pct,vol20_pct
 2026-07-30-usd-sgd,2026-07-30,2026-07-29,US Dollar / Singapore Dollar,USD/SGD,usd-sgd,forex,fx_exotic,-3.3,-0.52,0.16,20,,199,50,https://kinzan.io/markets/quakes/2026-07-30-usd-sgd/,https://kinzan.io/markets/forex/usd-sgd/
 2026-07-30-chf-jpy,2026-07-30,2026-07-29,Swiss Franc / Japanese Yen,CHF/JPY,chf-jpy,forex,fx_cross,-3.2,-0.99,0.31,20,,199,50,https://kinzan.io/markets/quakes/2026-07-30-chf-jpy/,https://kinzan.io/markets/forex/chf-jpy/
 2026-07-30-mu,2026-07-30,2026-07-29,Micron Technology,MU,mu,stock,equity_semis,3.2,18.36,5.74,18,,199,50,https://kinzan.io/markets/quakes/2026-07-30-mu/,https://kinzan.io/markets/stocks/mu/
+2026-07-30-aud-jpy,2026-07-30,2026-07-29,Australian Dollar / Japanese Yen,AUD/JPY,aud-jpy,forex,fx_cross,-3.1,-0.99,0.32,2,,199,50,https://kinzan.io/markets/quakes/2026-07-30-aud-jpy/,https://kinzan.io/markets/forex/aud-jpy/
+2026-07-30-dollar-index,2026-07-30,2026-07-29,US Dollar Index,DXY,dollar-index,index,index_us,-3.1,-0.78,0.25,3,,200,50,https://kinzan.io/markets/quakes/2026-07-30-dollar-index/,https://kinzan.io/markets/indices/dollar-index/
 2026-07-30-mara,2026-07-30,2026-07-29,MARA Holdings,MARA,mara,stock,equity_crypto,3.1,17.61,5.68,18,,199,50,https://kinzan.io/markets/quakes/2026-07-30-mara/,https://kinzan.io/markets/stocks/mara/
 2026-07-30-usd-krw,2026-07-30,2026-07-29,US Dollar / South Korean Won,USD/KRW,usd-krw,forex,fx_exotic,-3.1,-1.5,0.48,20,,199,50,https://kinzan.io/markets/quakes/2026-07-30-usd-krw/,https://kinzan.io/markets/forex/usd-krw/
+2026-07-30-tsm,2026-07-30,2026-07-29,Taiwan Semiconductor,TSM,tsm,stock,equity_semis,3,7.64,2.55,4,,200,49,https://kinzan.io/markets/quakes/2026-07-30-tsm/,https://kinzan.io/markets/stocks/tsm/
 2026-07-31-amzn,2026-07-31,2026-07-30,Amazon,AMZN,amzn,stock,equity_tech,8.4,15.32,1.82,19,,148,13,https://kinzan.io/markets/quakes/2026-07-31-amzn/,https://kinzan.io/markets/stocks/amzn/
 2026-07-31-nvo,2026-07-31,2026-07-30,Novo Nordisk,NVO,nvo,stock,equity_health,-5,-8.78,1.76,19,,148,13,https://kinzan.io/markets/quakes/2026-07-31-nvo/,https://kinzan.io/markets/stocks/nvo/
 2026-07-31-aapl,2026-07-31,2026-07-30,Apple,AAPL,aapl,stock,equity_tech,-4,-7.35,1.84,19,,148,13,https://kinzan.io/markets/quakes/2026-07-31-aapl/,https://kinzan.io/markets/stocks/aapl/
