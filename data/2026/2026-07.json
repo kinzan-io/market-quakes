@@ -1,6 +1,6 @@
 {
   "month": "2026-07",
-  "count": 95,
+  "count": 97,
   "license": {
     "id": "CC-BY-4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/",
@@ -1184,6 +1184,44 @@
       "stressed": 29,
       "url": "https://kinzan.io/markets/quakes/2026-07-27-near-usd/",
       "instrument_url": "https://kinzan.io/markets/crypto/near-usd/"
+    },
+    {
+      "key": "2026-07-27-trx-usd",
+      "date": "2026-07-27",
+      "prev_date": "2026-07-26",
+      "instrument": "TRON",
+      "ticker": "TRX",
+      "slug": "trx-usd",
+      "class": "crypto",
+      "group": "crypto_l1",
+      "sigma": -3,
+      "return_pct": -2.18,
+      "vol20_pct": 0.73,
+      "beats": 2,
+      "larger_since": null,
+      "measured": 28,
+      "stressed": 16,
+      "url": "https://kinzan.io/markets/quakes/2026-07-27-trx-usd/",
+      "instrument_url": "https://kinzan.io/markets/crypto/trx-usd/"
+    },
+    {
+      "key": "2026-07-27-xlm-usd",
+      "date": "2026-07-27",
+      "prev_date": "2026-07-26",
+      "instrument": "Stellar",
+      "ticker": "XLM",
+      "slug": "xlm-usd",
+      "class": "crypto",
+      "group": "crypto_l1",
+      "sigma": -3,
+      "return_pct": -5.8,
+      "vol20_pct": 1.93,
+      "beats": 2,
+      "larger_since": null,
+      "measured": 28,
+      "stressed": 16,
+      "url": "https://kinzan.io/markets/quakes/2026-07-27-xlm-usd/",
+      "instrument_url": "https://kinzan.io/markets/crypto/xlm-usd/"
     },
     {
       "key": "2026-07-28-brk-b",

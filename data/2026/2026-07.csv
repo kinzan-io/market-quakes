@@ -61,6 +61,8 @@ key,date,prev_date,instrument,ticker,slug,class,group,sigma,return_pct,vol20_pct
 2026-07-27-imx-usd,2026-07-27,2026-07-26,Immutable,IMX,imx-usd,crypto,crypto_l1,-3.1,-7.5,2.42,23,2026-07-03,199,29,https://kinzan.io/markets/quakes/2026-07-27-imx-usd/,https://kinzan.io/markets/crypto/imx-usd/
 2026-07-27-asx-200,2026-07-27,2026-07-24,ASX 200,ASX200,asx-200,index,index_apac,3,1.39,0.46,2,,200,31,https://kinzan.io/markets/quakes/2026-07-27-asx-200/,https://kinzan.io/markets/indices/asx-200/
 2026-07-27-near-usd,2026-07-27,2026-07-26,NEAR Protocol,NEAR,near-usd,crypto,crypto_l1,-3,-8.3,2.77,31,,199,29,https://kinzan.io/markets/quakes/2026-07-27-near-usd/,https://kinzan.io/markets/crypto/near-usd/
+2026-07-27-trx-usd,2026-07-27,2026-07-26,TRON,TRX,trx-usd,crypto,crypto_l1,-3,-2.18,0.73,2,,28,16,https://kinzan.io/markets/quakes/2026-07-27-trx-usd/,https://kinzan.io/markets/crypto/trx-usd/
+2026-07-27-xlm-usd,2026-07-27,2026-07-26,Stellar,XLM,xlm-usd,crypto,crypto_l1,-3,-5.8,1.93,2,,28,16,https://kinzan.io/markets/quakes/2026-07-27-xlm-usd/,https://kinzan.io/markets/crypto/xlm-usd/
 2026-07-28-brk-b,2026-07-28,2026-07-27,Berkshire Hathaway,BRK.B,brk-b,stock,equity_financial,3.9,3.06,0.78,16,,199,4,https://kinzan.io/markets/quakes/2026-07-28-brk-b/,https://kinzan.io/markets/stocks/brk-b/
 2026-07-28-ba,2026-07-28,2026-07-27,Boeing,BA,ba,stock,equity_industrial,3.2,4.76,1.49,0,,199,7,https://kinzan.io/markets/quakes/2026-07-28-ba/,https://kinzan.io/markets/stocks/ba/
 2026-07-29-eur-aud,2026-07-29,2026-07-28,Euro / Australian Dollar,EUR/AUD,eur-aud,forex,fx_cross,4.7,0.94,0.2,19,,199,26,https://kinzan.io/markets/quakes/2026-07-29-eur-aud/,https://kinzan.io/markets/forex/eur-aud/

@@ -14,7 +14,7 @@
   "citation": "Kinzan (2026). Kinzan market quake archive [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23690407",
   "firstDate": "2026-06-26",
   "lastDate": "2026-10-31",
-  "count": 421,
+  "count": 427,
   "columns": [
     {
       "name": "key",
@@ -94,13 +94,13 @@
     },
     {
       "month": "2026-07",
-      "count": 95,
+      "count": 97,
       "json": "https://kinzan.io/data/quakes/2026-07.json",
       "csv": "https://kinzan.io/data/quakes/2026-07.csv"
     },
     {
       "month": "2026-08",
-      "count": 109,
+      "count": 113,
       "json": "https://kinzan.io/data/quakes/2026-08.json",
       "csv": "https://kinzan.io/data/quakes/2026-08.csv"
     },
