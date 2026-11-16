@@ -1,6 +1,6 @@
 {
   "month": "2026-08",
-  "count": 113,
+  "count": 116,
   "license": {
     "id": "CC-BY-4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/",
@@ -158,6 +158,25 @@
       "stressed": 12,
       "url": "https://kinzan.io/markets/quakes/2026-08-02-nzd-jpy/",
       "instrument_url": "https://kinzan.io/markets/forex/nzd-jpy/"
+    },
+    {
+      "key": "2026-08-02-ada-usd",
+      "date": "2026-08-02",
+      "prev_date": "2026-08-01",
+      "instrument": "Cardano",
+      "ticker": "ADA",
+      "slug": "ada-usd",
+      "class": "crypto",
+      "group": "crypto_l1",
+      "sigma": 3,
+      "return_pct": 8.69,
+      "vol20_pct": 2.9,
+      "beats": 3,
+      "larger_since": null,
+      "measured": 28,
+      "stressed": 3,
+      "url": "https://kinzan.io/markets/quakes/2026-08-02-ada-usd/",
+      "instrument_url": "https://kinzan.io/markets/crypto/ada-usd/"
     },
     {
       "key": "2026-08-03-usd-cop",
@@ -407,6 +426,25 @@
       "instrument_url": "https://kinzan.io/markets/stocks/app/"
     },
     {
+      "key": "2026-08-06-gbp-chf",
+      "date": "2026-08-06",
+      "prev_date": "2026-08-05",
+      "instrument": "British Pound / Swiss Franc",
+      "ticker": "GBP/CHF",
+      "slug": "gbp-chf",
+      "class": "forex",
+      "group": "fx_cross",
+      "sigma": 3.5,
+      "return_pct": 0.6,
+      "vol20_pct": 0.17,
+      "beats": 0,
+      "larger_since": null,
+      "measured": 197,
+      "stressed": 7,
+      "url": "https://kinzan.io/markets/quakes/2026-08-06-gbp-chf/",
+      "instrument_url": "https://kinzan.io/markets/forex/gbp-chf/"
+    },
+    {
       "key": "2026-08-06-usd-try",
       "date": "2026-08-06",
       "prev_date": "2026-08-05",
@@ -538,6 +576,25 @@
       "stressed": 5,
       "url": "https://kinzan.io/markets/quakes/2026-08-12-corn/",
       "instrument_url": "https://kinzan.io/markets/commodities/corn/"
+    },
+    {
+      "key": "2026-08-13-nflx",
+      "date": "2026-08-13",
+      "prev_date": "2026-08-12",
+      "instrument": "Netflix",
+      "ticker": "NFLX",
+      "slug": "nflx",
+      "class": "stock",
+      "group": "equity_tech",
+      "sigma": 3.5,
+      "return_pct": 5.43,
+      "vol20_pct": 1.55,
+      "beats": 3,
+      "larger_since": null,
+      "measured": 198,
+      "stressed": 4,
+      "url": "https://kinzan.io/markets/quakes/2026-08-13-nflx/",
+      "instrument_url": "https://kinzan.io/markets/stocks/nflx/"
     },
     {
       "key": "2026-08-13-usd-try",
