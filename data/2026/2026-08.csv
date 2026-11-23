@@ -65,8 +65,11 @@ key,date,prev_date,instrument,ticker,slug,class,group,sigma,return_pct,vol20_pct
 2026-08-19-mstr,2026-08-19,2026-08-18,Strategy,MSTR,mstr,stock,equity_crypto,3.3,12.68,3.84,32,,200,57,https://kinzan.io/markets/quakes/2026-08-19-mstr/,https://kinzan.io/markets/stocks/mstr/
 2026-08-19-eur-usd,2026-08-19,2026-08-18,Euro / US Dollar,EUR/USD,eur-usd,forex,fx_major,3.1,0.81,0.26,34,,200,57,https://kinzan.io/markets/quakes/2026-08-19-eur-usd/,https://kinzan.io/markets/forex/eur-usd/
 2026-08-19-ge,2026-08-19,2026-08-18,GE Aerospace,GE,ge,stock,equity_industrial,-3.1,-5.03,1.62,32,,200,57,https://kinzan.io/markets/quakes/2026-08-19-ge/,https://kinzan.io/markets/stocks/ge/
+2026-08-19-pfe,2026-08-19,2026-08-18,Pfizer,PFE,pfe,stock,equity_health,3.1,3.63,1.17,2,,199,59,https://kinzan.io/markets/quakes/2026-08-19-pfe/,https://kinzan.io/markets/stocks/pfe/
 2026-08-19-usd-dkk,2026-08-19,2026-08-18,US Dollar / Danish Krone,USD/DKK,usd-dkk,forex,fx_exotic,-3.1,-0.83,0.27,34,,200,57,https://kinzan.io/markets/quakes/2026-08-19-usd-dkk/,https://kinzan.io/markets/forex/usd-dkk/
 2026-08-19-dollar-index,2026-08-19,2026-08-18,US Dollar Index,DXY,dollar-index,index,index_us,-3,-0.82,0.27,32,,200,57,https://kinzan.io/markets/quakes/2026-08-19-dollar-index/,https://kinzan.io/markets/indices/dollar-index/
+2026-08-19-eur-try,2026-08-19,2026-08-18,Euro / Turkish Lira,EUR/TRY,eur-try,forex,fx_exotic,3,0.94,0.31,1,,199,61,https://kinzan.io/markets/quakes/2026-08-19-eur-try/,https://kinzan.io/markets/forex/eur-try/
+2026-08-19-usd-mxn,2026-08-19,2026-08-18,US Dollar / Mexican Peso,USD/MXN,usd-mxn,forex,fx_exotic,-3,-0.64,0.21,3,,199,59,https://kinzan.io/markets/quakes/2026-08-19-usd-mxn/,https://kinzan.io/markets/forex/usd-mxn/
 2026-08-20-wmt,2026-08-20,2026-08-19,Walmart,WMT,wmt,stock,equity_consumer,-8,-9.15,1.14,33,,200,22,https://kinzan.io/markets/quakes/2026-08-20-wmt/,https://kinzan.io/markets/stocks/wmt/
 2026-08-20-xrp-usd,2026-08-20,2026-08-19,XRP,XRP,xrp-usd,crypto,crypto_major,5.5,14.85,2.7,0,2026-08-19,200,22,https://kinzan.io/markets/quakes/2026-08-20-xrp-usd/,https://kinzan.io/markets/crypto/xrp-usd/
 2026-08-20-doge-usd,2026-08-20,2026-08-19,Dogecoin,DOGE,doge-usd,crypto,crypto_meme,3.5,7.27,2.08,0,2026-08-19,200,22,https://kinzan.io/markets/quakes/2026-08-20-doge-usd/,https://kinzan.io/markets/crypto/doge-usd/
@@ -76,6 +79,7 @@ key,date,prev_date,instrument,ticker,slug,class,group,sigma,return_pct,vol20_pct
 2026-08-20-fil-usd,2026-08-20,2026-08-19,Filecoin,FIL,fil-usd,crypto,crypto_l1,3.2,9.33,2.92,55,,200,22,https://kinzan.io/markets/quakes/2026-08-20-fil-usd/,https://kinzan.io/markets/crypto/fil-usd/
 2026-08-20-etc-usd,2026-08-20,2026-08-19,Ethereum Classic,ETC,etc-usd,crypto,crypto_major,3.1,6.53,2.11,0,2026-08-19,200,22,https://kinzan.io/markets/quakes/2026-08-20-etc-usd/,https://kinzan.io/markets/crypto/etc-usd/
 2026-08-20-imx-usd,2026-08-20,2026-08-19,Immutable,IMX,imx-usd,crypto,crypto_l1,3,6.23,2.08,1,2026-08-18,200,22,https://kinzan.io/markets/quakes/2026-08-20-imx-usd/,https://kinzan.io/markets/crypto/imx-usd/
+2026-08-20-rtx,2026-08-20,2026-08-19,RTX,RTX,rtx,stock,equity_industrial,-3,-3.66,1.22,4,,199,23,https://kinzan.io/markets/quakes/2026-08-20-rtx/,https://kinzan.io/markets/stocks/rtx/
 2026-08-21-bch-usd,2026-08-21,2026-08-20,Bitcoin Cash,BCH,bch-usd,crypto,crypto_major,16,28.9,1.81,56,,147,32,https://kinzan.io/markets/quakes/2026-08-21-bch-usd/,https://kinzan.io/markets/crypto/bch-usd/
 2026-08-21-aave-usd,2026-08-21,2026-08-20,Aave,AAVE,aave-usd,crypto,crypto_defi,8.6,23.45,2.73,56,,147,32,https://kinzan.io/markets/quakes/2026-08-21-aave-usd/,https://kinzan.io/markets/crypto/aave-usd/
 2026-08-21-etc-usd,2026-08-21,2026-08-20,Ethereum Classic,ETC,etc-usd,crypto,crypto_major,7.8,19.55,2.51,56,,147,32,https://kinzan.io/markets/quakes/2026-08-21-etc-usd/,https://kinzan.io/markets/crypto/etc-usd/
@@ -98,6 +102,7 @@ key,date,prev_date,instrument,ticker,slug,class,group,sigma,return_pct,vol20_pct
 2026-08-21-algo-usd,2026-08-21,2026-08-20,Algorand,ALGO,algo-usd,crypto,crypto_l1,3.1,10.69,3.45,18,2026-08-02,147,32,https://kinzan.io/markets/quakes/2026-08-21-algo-usd/,https://kinzan.io/markets/crypto/algo-usd/
 2026-08-21-rough-rice,2026-08-21,2026-08-20,Rough Rice,RICE,rough-rice,commodity,grains,3.1,3.93,1.27,26,2026-07-15,147,32,https://kinzan.io/markets/quakes/2026-08-21-rough-rice/,https://kinzan.io/markets/commodities/rough-rice/
 2026-08-21-bnb-usd,2026-08-21,2026-08-20,BNB,BNB,bnb-usd,crypto,crypto_major,3,4.9,1.63,0,2026-08-20,147,32,https://kinzan.io/markets/quakes/2026-08-21-bnb-usd/,https://kinzan.io/markets/crypto/bnb-usd/
+2026-08-24-v,2026-08-24,2026-08-21,Visa,V,v,stock,equity_financial,3,3.06,1.02,4,,199,6,https://kinzan.io/markets/quakes/2026-08-24-v/,https://kinzan.io/markets/stocks/v/
 2026-08-25-usd-inr,2026-08-25,2026-08-24,US Dollar / Indian Rupee,USD/INR,usd-inr,forex,fx_exotic,-12.7,-2.27,0.18,38,,199,2,https://kinzan.io/markets/quakes/2026-08-25-usd-inr/,https://kinzan.io/markets/forex/usd-inr/
 2026-08-25-trx-usd,2026-08-25,2026-08-24,TRON,TRX,trx-usd,crypto,crypto_l1,-4.5,-2.52,0.56,60,,199,2,https://kinzan.io/markets/quakes/2026-08-25-trx-usd/,https://kinzan.io/markets/crypto/trx-usd/
 2026-08-26-vet-usd,2026-08-26,2026-08-25,VeChain,VET,vet-usd,crypto,crypto_l1,4.6,17.45,3.79,6,2026-08-19,199,9,https://kinzan.io/markets/quakes/2026-08-26-vet-usd/,https://kinzan.io/markets/crypto/vet-usd/
